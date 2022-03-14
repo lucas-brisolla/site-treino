@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+body{
+    background-color: rgb(245, 245, 232);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+
+header{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(199, 199, 150);
+}
+
+header > #logo{
+    display: flex;
+    flex-direction: row;
+    flex
+    align-self: center;
+    height: 100px;
+    width: 100px;
+}
+
+#menu{
+    display: flex;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    
+}
+
+
+#menu > nav > a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+#menu > nav > a:hover{
+    color: rgba(255, 255, 1, 0.267);
+    text-shadow: 2px 2px 20px yellow;
+    text-decoration: underline;
+    transition: .2s;
+}
+
+
+header > #dark_mode{
+    display: flex;
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+header > #leng{
+    display: flex;
+    align-items: center;
+    border: 1px solid yellow;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+#leng:hover{
+    background-color: yellow;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+header > #premium{
+    display: flex;
+    align-items: center;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#premium:hover{
+    background-color: yellow;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+header > #login{
+    display: flex;
+    align-items: center;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#login:hover{
+    background-color: yellow;
+    transition: 0.3s;
+    cursor: pointer;
+}
